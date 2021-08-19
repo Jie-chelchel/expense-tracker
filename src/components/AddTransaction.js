@@ -9,8 +9,14 @@ const AddTransaction = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    if (!text || !amount) {
+      alert("Please add text and amount.");
+      return "";
+    }
     const newTrans = { text, amount: +amount, id: Date.now() };
     addTransaction(newTrans);
+    setText("");
+    setAmount("");
   };
 
   return (

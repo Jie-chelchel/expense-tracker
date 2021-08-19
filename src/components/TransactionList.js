@@ -1,6 +1,6 @@
 import { GlobalContext } from "../context/GlobalState";
 import React, { useContext } from "react";
-import { transformSync } from "@babel/core";
+// import { transformSync } from "@babel/core";
 import Transaction from "./Transaction";
 
 const TransactionList = () => {

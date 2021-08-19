@@ -5,17 +5,63 @@
 }
 
 .balance {
-  background-color: antiquewhite;
+  border: 2px solid grey;
+  background-color: rgb(170, 215, 221);
+  border-radius: 10px;
+  margin: 2rem auto;
 }
 
 .incomeExp {
-  background-color: bisque;
+  border: 2px solid grey;
+  background-color: rgb(170, 215, 221);
+  border-radius: 10px;
+  margin: 2rem auto;
 }
 
 .history {
-  background-color: blanchedalmond;
+  background-color: rgb(170, 215, 221);
+}
+.trans {
+  border: 2px solid grey;
+  background-color: rgb(170, 215, 221);
+  border-radius: 10px;
+}
+.newTrans {
+  margin: 1rem;
+  padding: 1rem;
 }
 
-.form {
-  background-color: rgb(235, 236, 215);
+button {
+  background-color: rgb(92, 170, 223);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 2px solid rgb(57, 201, 226);
+}
+
+.history {
+  border: 2px solid grey;
+  background-color: rgb(170, 215, 221);
+  border-radius: 10px;
+  margin: 2rem auto;
+}
+
+.history button {
+  padding: 0.5rem 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 1em;
+  margin: 1rem;
+}
+
+h2 {
+  margin-right: 1rem;
+}
+
+span {
+  font-weight: bold;
+  margin-right: 1rem;
 }

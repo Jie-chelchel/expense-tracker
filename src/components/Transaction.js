@@ -6,11 +6,11 @@ const Transaction = (props) => {
   const sign = props.item.amount > 0 ? "+" : "-";
   return (
     <li>
-      {props.item.text}
+      <h2>{props.item.text}</h2>
       <span>
         {sign}${Math.abs(props.item.amount)}
       </span>
-      <button onClick={() => deleteTransaction(props.item.id)}>x</button>
+      <button onClick={() => deleteTransaction(props.item.id)}>delete</button>
     </li>
   );
 };

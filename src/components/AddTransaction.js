@@ -14,11 +14,11 @@ const AddTransaction = () => {
   };
 
   return (
-    <div className="form">
-      <h3>Add new transaction</h3>
+    <div className="trans">
+      <h3 className="newTrans">Add new transaction</h3>
       <form>
-        <div>
-          <label htmlFor="text">Text</label>
+        <div className="newTrans">
+          <label htmlFor="text">Text </label>
           <input
             type="text"
             placeholder="Enter text..."
@@ -28,7 +28,7 @@ const AddTransaction = () => {
             }}
           />
         </div>
-        <div>
+        <div className="newTrans">
           <label htmlFor="amount">
             Amount <br />
             (negative-expense, positive -income

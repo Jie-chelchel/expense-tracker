@@ -27,7 +27,7 @@ const AddTransaction = () => {
           <label htmlFor="text">Text </label>
           <input
             type="text"
-            placeholder="Enter text..."
+            placeholder="Income or expenses"
             value={text}
             onChange={(e) => {
               setText(e.target.value);
@@ -37,8 +37,9 @@ const AddTransaction = () => {
         <div className="newTrans">
           <label htmlFor="amount">
             Amount <br />
-            (negative-expense, positive -income
+            (negative-expense, positive -income)
           </label>
+          <br />
           <input
             type="number"
             placeholder="Enter amount..."
